@@ -409,7 +409,3 @@ def getOccurr(str, char):
         if ch == char:
             count += 1
     return count
-    
-    
-         
-    

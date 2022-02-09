@@ -29,7 +29,7 @@ class queue:
         self.coda = []
     
     def add(self, elem):
-    # aggiunge un'ultimo elemento alla coda
+    # aggiunge un ultimo elemento alla coda
     # @param elem: any type of data
     # @return None
         self.coda.append(elem)

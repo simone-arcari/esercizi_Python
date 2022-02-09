@@ -9,7 +9,7 @@ class stack:
     
     def pop(self):
     # @return None
-        self.pila.pop()
+        return self.pila.pop()
     
     def top(self):
     # @return any type of data
@@ -37,7 +37,7 @@ class queue:
     def out(self):
     # scarta il primo elemento della coda
     # @return None
-        self.coda.pop(0)
+        return self.coda.pop(0)
     
     def first(self):
     # ritorna il primo elemento della coda
